@@ -1,0 +1,14 @@
+# Vim staff #                                                                      
+#############                                                                      
+*~                                                                                 
+*.swp                                                                              
+*.swo                                                                              
+*.swn                                                                              
+*.swl                                                                              
+*.swm                                                                              
+*.swj                                                                              
+*.swk
+
+# Mac OS stuff #                                                                   
+################                                                                   
+.DS_Store 
