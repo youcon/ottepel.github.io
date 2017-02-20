@@ -28,5 +28,7 @@
             top: 100
         }
     })
+    var d = new Date();
+    $('#ticket_id').attr("value", d.getTime())
 
 })(jQuery); // End of use strict
