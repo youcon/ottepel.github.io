@@ -313,11 +313,6 @@ section h3.section-subheading {
     margin: 15px 0;
     text-transform: none;
 }
-@media (min-width: 767px) {
-    #portfolio .portfolio-item {
-        margin: 0 0 30px;
-    }
-}
 .schedule {
     list-style: none;
     padding: 0;
@@ -499,7 +494,7 @@ section#naminations{
 }
 
 section#partners{
-    background-color: #aba196;
+    background-color: #f1f1f1;
     background-position: center;
     background-repeat: no-repeat;
 }
