@@ -422,24 +422,6 @@
         <aside id="contacts">
             <div id="map"></div>
         </aside>
-        <script>
-            function initMap() {
-                var ottepel = {lat: 51.518479, lng: 46.019049};
-                var isDraggable = jQuery(document).width() > 480 ? true : false;
-                var map = new google.maps.Map(document.getElementById('map'), {
-                    scrollwheel: false,
-                    draggable: isDraggable,
-                    zoom: 16,
-                    center: ottepel
-                });
-                var ottepelMarker = {lat: 51.518479, lng: 46.020265};
-                var marker = new google.maps.Marker({
-                    position: ottepelMarker,
-                    icon: "images/marker.png",
-                    map: map
-                });
-            }
-        </script>
         <script async defer
                          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlL_WFV5VBi06rt_gPk5pjCUbpQdNDbjY&callback=initMap">
         </script>
@@ -464,6 +446,24 @@
           ga('create', 'UA-62253510-2', 'auto');
           ga('send', 'pageview');
 
+        </script>
+        <script>
+            function initMap() {
+                var ottepel = {lat: 51.518479, lng: 46.019049};
+                var isDraggable = jQuery(document).width() > 480 ? true : false;
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    scrollwheel: false,
+                    draggable: isDraggable,
+                    zoom: 16,
+                    center: ottepel
+                });
+                var ottepelMarker = {lat: 51.518479, lng: 46.020265};
+                var marker = new google.maps.Marker({
+                    position: ottepelMarker,
+                    icon: "images/marker.png",
+                    map: map
+                });
+            }
         </script>
     </body>
 </html>
