@@ -498,6 +498,9 @@ section#partners{
     background-position: center;
     background-repeat: no-repeat;
 }
+.info-partners {
+    margin-top: 30px;
+}
 
 .mentor {
     text-align: center;
